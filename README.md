@@ -1,2 +1,2 @@
 # Timmy-Art
-A friend made some amazing pictures in onenote during class
+A friend made some amazing paintings in Onenote when bored in class
