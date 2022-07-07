@@ -1,0 +1,112 @@
+:root {
+  /* COLOR */
+  --colorDarkest: #1B262C;
+  --colorDark: #0F4C75;
+  --colorLight: #3282B8;
+  --colorLightest: #BBE1FA;
+  /* FONT */
+  --font1: 'Federant', monospace;
+  --font2: 'Artifika', monospace;
+}
+* {
+    margin: 0;
+  }
+/* DIV STYLING */
+.titleDiv {
+  background-color: var(--colorDarkest);
+  height: 500px;
+  margin-top: 0!important;
+}
+.nextDiv {
+  background-color: var(--colorDark);
+  height: auto;
+  min-height: 500px;
+  margin-top: 0!important;
+  padding: 80px 150px;
+}
+/* MAIN DIV TEXT STYLING */
+h1 {
+  font-size: 7rem;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 30%;
+  color: var(--colorLightest);
+  font-family: var(--font1);
+}
+h2 {
+  font-family: var(--font2);
+  font-size: 3rem;
+  color: var(--colorLight);
+  text-align: center;
+  position: relative;
+  top: 28%;
+}
+h3 {
+  font-family: var(--font1);
+  font-size: 4rem;
+  color: var(--colorLightest);
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 50px;
+}
+h4 {
+  font-family: var(--font2);
+  font-size: 2rem;
+  color: var(--colorLight);
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 50px;
+}
+li {
+  text-align: left;
+  list-style-type: '⇨ ';
+}
+img {
+  margin: 30px;
+  height: 20vw
+}
+strong {
+  font-size: 4.3rem;
+}
+/* NAV BAR */
+.nav {
+  overflow: hidden;
+  position: relative;
+  background-color: var(--colorDarkest);
+}
+.nav a {
+  float: left;
+  color: var(--colorLightest);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: var(--font1);
+
+}
+.nav a:hover {
+  background-color: var(--colorLight);
+  color: var(--colorDarkest);
+  font-family: var(--font1);
+}
+.nav a.active {
+  background-color: var(--colorLightest);
+  color: var(--colorDarkest);
+  font-family: var(--font1);
+}
+/* SMALLER SCREEN */
+@media screen and (max-width: 985px) {
+  .navText {
+    display: none;
+  }
+  .Title {
+    font-size: 4rem;
+  }
+  .subTitle {
+    font-size: 2rem;
+  }
+  .titleDiv {
+    height: 300px;
+  }
+}
